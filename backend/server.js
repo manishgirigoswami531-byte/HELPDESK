@@ -12,6 +12,7 @@ app.use(express.json());
 
 // Supabase connection
 const supabaseUrl = process.env.SUPABASE_URL;
+console.log("Supabase URL:", process.env.SUPABASE_URL);
 const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
 const supabase =
